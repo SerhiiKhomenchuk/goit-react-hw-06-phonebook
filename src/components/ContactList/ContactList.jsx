@@ -29,7 +29,7 @@ const ContactList = () => {
               id={id}
               className="list-group-item  d-flex justify-content-between fs-3 list-group-item-action list-group-item-warning"
             >
-              <span>{name}:</span>
+              <span className="text-capitalize">{name}:</span>
               <span>{number}</span>
               <button
                 type="button"
